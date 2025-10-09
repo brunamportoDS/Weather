@@ -12,11 +12,16 @@ Domain: Climate / Environmental Data Analysis
 
 Key Techniques: Data cleaning and wrangling, exploratory visualization, statistical hypothesis testing (t-test and z-test)
 
-Project Structure
-├── data/                 # Raw and cleaned precipitation data (NOAA)
-├── code/                 # Main analysis notebook (weather_project.ipynb)
-├── reports/              # Communication assignment and figures
-└── README.md             # Project documentation
+Weather/
+├── code/
+│   └── weather_project.ipynb
+├── reports/
+│   ├── Weather_communicate_the_results.docx
+│   └── figures/ (optional, if you add PNGs or charts)
+├── data/
+│   └── clean_weather_data.csv (optional)
+└── README.md
+
 
 Data
 Seattle data - https://raw.githubusercontent.com/brian-fischer/DATA-5100/refs/heads/main/weather/seattle_rain.csv
